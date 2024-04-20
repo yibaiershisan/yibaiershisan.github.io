@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>布局</title>
+    <style type="text/css">
+        header{
+            width: 100%;
+            height: 50px;
+            background-color: #aefeee;
+        }
+        h4{
+            display: inline;
+        }
+        aside{
+            width: 20%;
+            height: 630px;
+            background-color: #708090;
+            float: left;
+        }
+        section{
+            width: 80%;
+            height: 630px;
+            background-color: #D8bfd8;
+            float: left;
+            overflow: auto;
+        }
+        footer{
+            width: 100%;
+            height: 50px;
+            background-color: green;
+            clear: left;
+        }
+        figure{
+            padding: 0px;
+        }
+        img{
+            max-width: 70px;
+        }
+
+        ul{
+            list-style-type: none;
+        }
+
+        li{
+            display: inline;
+        }
+
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <hgroup>
+            <img src="./1.jpg" alt="" width="45">
+            <h4>HTML5综合项目</h4>
+        </hgroup>
+    </header>
+
+    <aside>
+        <nav>
+            <ul>
+                <li><a href="#">食品/家电</a><br/></li>
+                <li><a href="#">汽车/家居</a><br/></li>
+                <li><a href="#"><img src="./10.jpg" alt=""></a></li>
+                <li><a href="#"><img src="./11.jpg" alt=""></a></li>
+                <li><a href="#"><img src="./2.jpg" alt=""></a></li>
+                <li><a href="#"><img src="./3.jpg" alt=""></a></li>
+            </ul>
+        </nav>
+    </aside>
+    
+    <section>
+        <figure>
+            <img src="./6.jpg" alt="" width="40%">
+            <img src="./4.jpg" alt="" width="40%">
+        </figure>
+        <figcaption>食品/家电</figcaption>
+
+        <figure>
+            <img src="./7.jpg" alt="" width="40%">
+            <img src="./5.jpg" alt="" width="40%">
+        </figure>
+        <figcaption>汽车/家居</figcaption>
+
+        <figure>
+            <img src="./8.jpg" alt="" width="40%">
+            <img src="./9.jpg" alt="" width="40%">
+        </figure>
+        <figcaption>数码/珠宝</figcaption>
+    </section>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#"><img src="./about.png" width="45"></a></li>
+                <li><a href="#"><img src="./android-icon.png" width="45"></a></li>
+                <li><a href="#"><img src="./BV9A2434.jpg" width="45"></a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
