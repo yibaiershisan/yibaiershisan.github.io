@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>八大菜系介绍主页</title>
+    <style>
+       img {
+width: 1000px;
+height: auto;
+}
+    </style>
+</head>
+<body><div style="display:flex;justify-content:center;">
+    <img src="./image/caixi.jpg" alt="图片" style="margin:auto;" usemap="#caixi">
+    </div>
+    <map name="caixi">
+        <area shape="circle"
+        coords="400,162,75"
+        alt="chuan"
+        href="./html/chuancai.html">
+        <area shape="circle"
+        coords="562,162,75"
+        alt="yue"
+        href="./html/yuecai.html">
+        <area shape="circle"
+        coords="262,275,75"
+        alt="hui"
+        href="./html/huicai.html">
+        <area shape="circle"
+        coords="262,452,75"
+        alt="lu"
+        href="./html/lucai.html">
+        <area shape="circle"
+        coords="725,275,75"
+        alt="zhe"
+        href="./html/zhecai.html">
+        <area shape="circle"
+        coords="725,452,75"
+        alt="xiang"
+        href="./html/xiangcai.html">
+        <area shape="circle"
+        coords="400,572,75"
+        alt="min"
+        href="./html/mincai.html">
+        <area shape="circle"
+        coords="562,572,75"
+        alt="su"
+        href="./html/sucai.html">
+    </map>
+    <script>
+       if (confirm("组员：王诗宇，张赢丹，赵梦男.\n点击图片即可跳转相应介绍\n分工：\n王诗宇：制作网页\n张赢丹：网页设计\n赵梦男：资料收集\n班级：计算机应用技术三班")
+    ) {
+    confirm("enjoy！")
+       // 用户点击了确定
+   } else {
+    confirm("enjoy！")
+       // 用户点击了取消
+   }
+    </script>
+</body>
+</html>
