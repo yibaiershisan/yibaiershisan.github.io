@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Anhui Cuisine</title>
+    <style>
+        .text-container {
+            position: relative;
+            display: inline-block;
+            /* 使容器大小适应内容 */
+        }
+
+        .text-container span {
+            display: none;
+            /* 默认隐藏 */
+            position: absolute;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            z-index: 1000;
+        }
+
+        .text-container:hover span {
+            display: block;
+            /* 鼠标悬停时显示文本 */
+        }
+    </style>
+    <style>
+        .container {
+            width: 100%;
+            overflow: hidden;
+
+        }
+
+        .left-content {
+            float: left;
+            width: 60%;
+            /* 左侧区域宽度 */
+            padding: 100px;
+            box-sizing: border-box;
+            border-right: 1px solid #ccc;
+        }
+
+        .right-nav {
+            float: right;
+            width: 40%;
+            /* 右侧区域宽度 */
+            padding: 20px;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+
+<body>
+
+   
+    <div class="container clearfix">
+        <div class="left-content">
+            <p> <div class="text-container">
+                <p><b>Introduction:</b>
+                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Anhui Cuisine cuisine is also called Anhui Cuisine cuisine. According to the Table of Anhui Cuisine Cuisine Standardization System, the scope of traditional Anhui cuisine has been expanded. Anhui Cuisine cuisine is officially the general name of southern Anhui cuisine, Wanjiang cuisine, Hefei cuisine, Huainan cuisine and northern Anhui cuisine represented by southern Anhui cuisine.</p>
+                <span>简介：
+        徽菜即为安徽菜，根据《徽菜标准化体系表》，将传统徽菜的范围扩大了，徽菜正式以皖南菜为代表的皖南菜、皖江菜、合肥菜、淮南菜、皖北菜的总称。 </span>
+            </div>
+            <div class="text-container">
+                <p><b>Production method:</b>
+                   <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The cooking techniques of Anhui Cuisine cuisine include knife work, heat and operation techniques. The most important thing of Anhui Cuisine cuisine is fire work, which has always been a fine tradition. Its uniqueness is mainly reflected in the Kung Fu dishes that are good at cooking, stewing, fumigation and steaming. The use of different fire control techniques for different dishes is an important symbol of Anhui Cuisine chefs' proficiency, and also a basic means to form a unique style of crisp, tender, fragrant and fresh. There are about 20 categories and more than 50 kinds of cooking techniques commonly used in Anhui Cuisine cuisine, among which the most representative ones are smooth cooking, braising, clear stewing and raw fumigation.</p>
+                <span>制作方法：
+                    徽菜的烹饪技法，包括刀工、火候和操作技术，徽菜之重火工是历来的优良传统，其独到之处集中体现为擅长烧、炖、熏、蒸类的功夫菜上，不同菜肴使用不同的控火技术是徽帮厨师造诣深浅的重要标志，也是徽菜能形成酥、嫩、香、鲜独特风格的基本手段，徽菜常用的烹饪技法约有20大类50余种，其中最能体现徽式特色的是滑烧、红烧、清炖和生熏法。</span>
+            </div>
+            </p>
+                <p><div style="float: right;">
+                    <ul>
+                        <li><a style="text-decoration: none" href="/index.html">返回</a></li>
+                    </ul>
+                </div></p>
+                
+        </div>
+        <div style="float: right;">
+            <img src="/image/hui1.jpg" height="350"><br>
+            <img src="/image/hui2.jpg" height="350">
+            </div>
+    </div>
+    
+</body>
+
+</html>
